@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: larger;
+}
+.content {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    background: #ccc;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.content .calculator {
+    width: 400px;
+    border-radius: 20px;
+    padding: 20px;
+    background: #fff;
+}
+.content .calculator input {
+    width: 96%;
+    text-align: right;
+}
+.content .calculator button{
+    width: 21%;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5%;
+    margin: 2px;
+    cursor: pointer;
+}
+.letf {
+    background: black;
+    color: #fff;
+}
+.over{
+    background: #ccc;
+}
+.over:hover{
+    background:whitesmoke;
+}
